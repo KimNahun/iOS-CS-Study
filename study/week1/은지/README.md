@@ -8,11 +8,13 @@
 
 O(100,000,000) 이하면 1초 이내 처리 가능한 기준선으로 활용합니다.
 
+![Time Complexity Graph](images/time-complexity-graph.png)
+
 ## 시간 복잡도
 
 특정 크기의 입력(n)을 기준으로 실행하는 연산의 횟수입니다.
 
-![Time Complexity Graph](images/time-complexity-graph.png)
+![Complexity Order](images/complexity-order.png)
 
 > **시간 복잡도를 구하는 요령**
 > - 하나의 루프를 사용하여 단일 요소 집합을 반복하는 경우: O(n)
