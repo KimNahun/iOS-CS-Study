@@ -1,4 +1,4 @@
-# Week 2 - 은지
+<img width="722" height="312" alt="image" src="https://github.com/user-attachments/assets/214d7ee2-3a71-4c53-a23b-b47208830b65" /># Week 2 - 은지
 
 > 주제: 운영체제 / 메모리 / 동시성
 
@@ -26,7 +26,7 @@
 > 운영체제로부터 자원을 할당받은 **작업**의 단위
 > 
 
-![image.png](attachment:7327a673-e67b-48a5-93d9-7d2d380ce51b:image.png)
+<img width="1444" height="624" alt="image" src="https://github.com/user-attachments/assets/e49dff2b-9f35-4b5b-a871-681a0161436f" />
 
 프로그램을 실행하면 운영체제는 해당 프로그램을 메모리에 올리고, 실행에 필요한 자원을 할당합니다. 이 순간 프로그램은 정적인 상태에서 동적인 상태로 바뀌게 되며, 이를 **프로세스**라고 합니다.
 
@@ -192,7 +192,7 @@ Task.yield()
 
 즉, 실행 흐름이 끊기지 않고 **직렬적으로 이어지는 구조**입니다.
 
-![image.png](attachment:17897767-d37b-4eeb-9211-c03cc1bf3041:image.png)
+<img width="914" height="285" alt="image" src="https://github.com/user-attachments/assets/ab9effd8-7a5b-4ea1-a608-bec3e3a3a50d" />
 
 task1을 스레드 2로 보냈지만, 메인 스레드에는 여전히 block이란 것이 막고 있어서 task2가 실행되지 않고 있습니다.
 
@@ -217,9 +217,9 @@ DispatchQueue.global().sync {
 
 비동기 방식에서는 특정 작업을 다른 스레드에 위임한 뒤, 그 작업이 끝나는 것을 기다리지 않고 현재 흐름을 계속 진행합니다.
 
-![image.png](attachment:a08bef32-a791-483a-90c6-17af0f25cb75:image.png)
+<img width="914" height="285" alt="image" src="https://github.com/user-attachments/assets/c6f1d521-010e-4528-bca7-d25cf75e10be" />
 
-![image.png](attachment:8361eaa6-577e-46c2-8866-e2123110bb02:image.png)
+<img width="920" height="300" alt="image" src="https://github.com/user-attachments/assets/ad2b18a1-5650-4c93-aab3-5c8b6abe2f73" />
 
 사진의 예시에서는 task1이 다른 스레드로 옮겨갔고 메인 스레드에서는 task2가 task1의 작업을 기다리지 않고 즉시 실행됩니다.
 
@@ -328,7 +328,7 @@ observable.subscribe(onNext: { value in
 > 여러 작업을 **동시에 실행되는 것처럼 보이게 처리하는 방식**
 > 
 
-![image.png](attachment:e060219b-b8c3-47a0-a70e-4309c66f48e7:image.png)
+<img width="1888" height="892" alt="image" src="https://github.com/user-attachments/assets/611734a8-30d0-4290-adb6-1a0bd0c79209" />
 
 여기서 중요한 점은 ‘동시에’라는 표현이 실제로 같은 순간에 실행된다는 의미가 아니라, **CPU가 매우 빠르게 작업을 번갈아 실행한다는 것**입니다.
 
@@ -361,7 +361,7 @@ Task1 → Task2 → Task3
 > 여러 작업을 **실제로 동시에 실행하는 방식**
 > 
 
-![image.png](attachment:46684625-55a5-423f-99ec-6f8677abb73d:image.png)
+<img width="1930" height="900" alt="image" src="https://github.com/user-attachments/assets/4334b41d-8ff9-4195-ac84-f587f6a5bca1" />
 
 이는 하나의 CPU가 아니라, **여러 개의 코어(CPU)**를 사용하여 작업을 동시에 수행한다는 의미입니다.
 
@@ -486,7 +486,7 @@ DispatchQueue.main.sync {
 
 # 7️⃣ 메모리 구조
 
-![image.png](attachment:f522587e-af20-41f2-adf7-52ac239f5e16:image.png)
+<img width="282" height="560" alt="image" src="https://github.com/user-attachments/assets/a9294680-8593-4e24-83f4-c7edeb3a5f40" />
 
 프로그램이 실행되면 운영체제는 메모리(RAM)에 해당 프로그램을 위한 공간을 할당합니다.
 
