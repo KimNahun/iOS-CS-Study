@@ -1,4 +1,4 @@
-<img width="722" height="312" alt="image" src="https://github.com/user-attachments/assets/214d7ee2-3a71-4c53-a23b-b47208830b65" /># Week 2 - 은지
+# Week 2 - 은지
 
 > 주제: 운영체제 / 메모리 / 동시성
 
