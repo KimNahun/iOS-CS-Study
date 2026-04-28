@@ -619,13 +619,8 @@ TCP 또는 UDP 위에서 동작합니다.
 
 <img width="878" height="649" alt="image" src="https://github.com/user-attachments/assets/e8c30812-2d58-4b6c-b02c-e7dc52c74099" />
 
-| HTTP | 소켓 통신 |
-| --- | --- |
-|   • 요청 → 응답 후 연결 종료
-  • 단방향 구조 (요청 기반)
-  • Stateless |   • 연결을 계속 유지
-  • 양방향 실시간 통신
-  • 서버도 클라이언트에게 직접 데이터 전송 가능 |
+<img width="571" height="134" alt="image" src="https://github.com/user-attachments/assets/6a86bdce-e0bd-4acb-a7c4-27b72b86ae51" />
+
 
 ## WebSocket
 
